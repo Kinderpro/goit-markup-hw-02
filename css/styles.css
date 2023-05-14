@@ -32,7 +32,7 @@ body {
 .team-text {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -47,9 +47,8 @@ body {
 .web-logo {
   color: #4d5ae5;
 }
-.logo-studio {
-  color: #f4f4fd;
-  
+.logo-header-studio {
+  color: #2e2f42;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -102,6 +101,9 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
 }
+.style-btn {
+  font-family: "Roboto", sans-serif
+}
 .modal-btn {
   cursor: pointer;
   background: #4d5ae5;
@@ -123,6 +125,9 @@ body {
   color: var(--title-first-color);
 }
 /* =================== Our Team =================== */
+.my-team {
+  background-color: #F4F4FD;
+}
 .title-team {
   color: var(--title-first-color);
 }
@@ -132,9 +137,15 @@ body {
 .position-employee {
   color: var(--text-color);
 }
+.team-list {
+  background-color: #FFFFFF;
+}
 /* =================== Footer =================== */
 .text-footer {
   color: #f4f4fd;
+}
+.logo-studio {
+  color: #f4f4fd;   
 }
 .logo-text {
   background-color: #2e2f42;
