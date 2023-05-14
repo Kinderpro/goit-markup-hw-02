@@ -4,31 +4,21 @@
 .list {
   list-style: none;
 }
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #FFFFFF;
+  color: #434455;
+}
 :root {
   --title-link-color: #404bbf;
   --title-first-color: #2e2f42;
   --text-color: #434455;
-}
-body {
-  font-family: "Roboto", sans-serif;
 }
 .title-buttons {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-}
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
 .logo-text {
   background: #434455;
@@ -56,6 +46,10 @@ body {
 /* ================= COMPONENTS ================= */
 .web-logo {
   color: #4d5ae5;
+}
+.logo-studio {
+  color: #f4f4fd;
+  
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -97,7 +91,8 @@ body {
 }
 /* =================== Hero =================== */
 .hero {
-  background: #434455;
+  background: #2e2f42
+  
 }
 .hero-title {
   font-weight: 700;
@@ -115,11 +110,6 @@ body {
 .modal-btn:hover,
 .modal-btn:focus {
   background: #404bbf;
-}
-.navigatiom-button {
-  cursor: pointer;
-  background: #f4f4fd;
-  color: #4d5ae5;
 }
 /* =================== to success =================== */
 .skills-item-top {
@@ -146,7 +136,18 @@ body {
 .text-footer {
   color: #f4f4fd;
 }
+.logo-text {
+  background-color: #2e2f42;
+}
 /* =================== Portfolio =================== */
+.portfolio-button{
+  font-family: "Roboto", sans-serif
+  
+}
+.navigatiom-button {
+  background: #f4f4fd;
+  color: #4d5ae5;
+}
 .portfolio-button:hover,
 .portfolio-button:focus {
   cursor: pointer;
@@ -154,6 +155,7 @@ body {
   color: #ffffff;
 }
 .img-first-text {
+  line-height: 1.11;
 color: var(--title-first-color)
 }
 .text-second {
