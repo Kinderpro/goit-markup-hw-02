@@ -112,7 +112,7 @@ body {
   background: #404bbf;
 }
 /* =================== to success =================== */
-.skills-item-top {
+.skills-item-title {
   color: var(--title-first-color);
 }
 .skills-text {
