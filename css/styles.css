@@ -70,18 +70,12 @@ body {
 .menu-link:focus {
   color: var(--title-link-color);
 }
-.contact-tel:hover,
-.contact-tel:focus {
+
+.contact-link:hover,
+.contact-link:focus {
   color: var(--title-link-color);
 }
-.contact-mail:hover,
-.contact-mail:focus {
-  color: var(--title-link-color);
-}
-.contact-mail {
-  color: var(--text-color);
-}
-.contact-tel {
+.contact-link {
   color: var(--text-color);
 }
 .contact-address {
