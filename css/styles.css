@@ -112,7 +112,7 @@ body {
   background: #404bbf;
 }
 /* =================== to success =================== */
-.skill-item-title {
+.skill-title {
   color: var(--title-first-color);
 }
 .skill-text {
@@ -164,7 +164,7 @@ body {
   color: #ffffff;
 }
 .img-first-text {
-  line-height: 1.11;
+line-height: 1.2;
 color: var(--title-first-color)
 }
 .text-second {
